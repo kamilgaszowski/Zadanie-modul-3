@@ -17,6 +17,14 @@ body {
 	line-height: 1.7;
 }
 
+h4 {
+	margin: 20px 0 20px 0;
+	font-family: $first-font;
+	font-size: 25px;
+	color: #000000;
+	font-weight: 700;
+}
+
 .container {
 	max-width: 1140px;
 }
@@ -26,6 +34,7 @@ body {
 	font-family: $first-font;
 	font-size: 50px;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .subtitle-description {
@@ -136,7 +145,7 @@ body {
 	padding: 70px 0;
 }
 .fas {
-	margin: 15px 0 5px 0;
+	margin: 15px 0 0 0;
 	color: $main-color;
 	font-size: 36px;
 	border: 2px solid $main-color;
@@ -146,21 +155,39 @@ body {
 	line-height: 70px;
 }
 
-.services h4 {
-	font-family: $first-font;
-	font-size: 25px;
-	color: #000000;
-	font-weight: 700;
-}
+
 
 .services p {
 	font-family: $text-font;
 	color: #000000;
 	font-weight: 100;
+	font-size: 14px;
 }
 
 
+/* Portfolio */
 
+.portfolio {
+	background-color: #f7f7f7;
+	padding: 70px 0;	
+}
+
+.portfolio h4 {
+	margin: 10px 0 0 0;	
+}
+
+.portfolio p {
+	font-family: $second-font;
+	line-height: 1.2;
+
+	
+}
+ .card {
+ 	margin: -9px 0 20px 30px;
+ 	border: 1px solid #ffffff;
+ 	width: 290px;
+ 	background-color: #ffffff;
+ }
 
 
 

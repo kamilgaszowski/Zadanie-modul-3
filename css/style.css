@@ -10,6 +10,14 @@ body {
   line-height: 1.7;
 }
 
+h4 {
+  margin: 20px 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: #000000;
+  font-weight: 700;
+}
+
 .container {
   max-width: 1140px;
 }
@@ -19,6 +27,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .subtitle-description {
@@ -129,7 +138,7 @@ body {
 }
 
 .fas {
-  margin: 15px 0 5px 0;
+  margin: 15px 0 0 0;
   color: #fed136;
   font-size: 36px;
   border: 2px solid #fed136;
@@ -139,16 +148,32 @@ body {
   line-height: 70px;
 }
 
-.services h4 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
-  color: #000000;
-  font-weight: 700;
-}
-
 .services p {
   font-family: "Roboto", sans-serif;
   color: #000000;
   font-weight: 100;
+  font-size: 14px;
+}
+
+/* Portfolio */
+.portfolio {
+  background-color: #f7f7f7;
+  padding: 70px 0;
+}
+
+.portfolio h4 {
+  margin: 10px 0 0 0;
+}
+
+.portfolio p {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1.2;
+}
+
+.card {
+  margin: -9px 0 20px 30px;
+  border: 1px solid #ffffff;
+  width: 290px;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
