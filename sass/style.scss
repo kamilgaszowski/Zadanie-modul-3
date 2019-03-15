@@ -1,6 +1,10 @@
 /* General */
 $main-color: #fed136;
 
+$first-font: 'Montserrat', sans-serif; 
+$second-font: 'Cormorant Garamond', serif;
+$text-font: 'Roboto', sans-serif;
+
 
 *, *::before, *::after {
 	box-sizing: border-box;
@@ -43,6 +47,8 @@ body {
 	width: auto;
 	float: right;
 	line-height: 0;
+	font-family: $first-font;
+	font-size: 14px;
 	color: #ffffff;
 }
 
@@ -63,12 +69,55 @@ body {
 	background-attachment: fixed;
 	z-index: -1;
 }
+.splash::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  content: ''; }
 
 .splash-inner {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+.splash-inner h1 {
+	margin: 0 0 20px 0;
+	font-family: $first-font;
+	font-size: 60px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.splash-inner h2 {
+	margin: 80px 0 0 0;
+	font-family: $second-font;
+	font-size: 46px;
+	font-style: italic;
+	color: #ffffff;
+	font-weight: 100;
+	letter-spacing: 1.8px;
+}
+
+.splash-inner button {
+	margin: 30px 0 0 0;
+	font-family: $first-font;
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: $main-color;
+	border-radius: 5px;
+	border: none;
+	width: 240px;
+	height: 65px;
+
+
 }
 
 
