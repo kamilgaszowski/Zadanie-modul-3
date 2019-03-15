@@ -43,10 +43,33 @@ body {
 	width: auto;
 	float: right;
 	line-height: 0;
+	color: #ffffff;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: inherit;
 }
 
 
+/* Splash */
 
+.splash {
+	height: 100vh;
+	position: relative;
+	background-image: url('../images/Background.png');
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.splash-inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 
 
