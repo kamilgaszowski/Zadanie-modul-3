@@ -1,0 +1,60 @@
+/* General */
+$main-color: #fed136;
+
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.container {
+	max-width: 1140px;
+	
+}
+
+/* Nav */
+.navigation {
+	position: relative;
+}
+
+.navigation img {
+	margin: 20px 0;
+	position: absolute;
+	float: left;
+	left: 150px;
+	
+}
+
+.navigation ul {
+	position: absolute;
+	right: 150px;
+	list-style-type: none;
+	float: right;
+}
+
+.navigation li {
+	margin: 20px 10px;
+	width: auto;
+	float: right;
+	line-height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
