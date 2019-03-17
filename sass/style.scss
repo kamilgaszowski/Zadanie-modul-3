@@ -173,22 +173,68 @@ h4 {
 }
 
 .portfolio h4 {
-	margin: 10px 0 0 0;	
+	margin: 0;	
+	font-size: 20px;
 }
 
 .portfolio p {
 	font-family: $second-font;
 	line-height: 1.2;
-
-	
 }
- .card {
- 	margin: -9px 0 20px 30px;
- 	border: 1px solid #ffffff;
- 	width: 290px;
- 	background-color: #ffffff;
- }
 
+.card {
+	margin: 0 0 50px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 291px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box; 
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-image {
+	position: relative;
+}
+
+.card-image img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.img-description {
+	position: absolute;
+	display: none;
+}
+
+.card:hover .img-description {
+	display: block;
+	color: $main-color;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid $main-color;
+	padding: 2px;
+	z-index: 99;
+}
+
+.card:hover .card-image::after {
+	display: block;
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
 
 
 
