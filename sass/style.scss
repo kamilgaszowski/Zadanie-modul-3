@@ -27,6 +27,7 @@ h4 {
 
 .container {
 	max-width: 1140px;
+	padding: 70px 0;
 }
 
 .subtitle {
@@ -65,6 +66,7 @@ h4 {
 }
 
 .navigation li {
+
 	margin: 20px 10px;
 	width: auto;
 	float: right;
@@ -141,9 +143,7 @@ h4 {
 }
 
 /* Services */
-.services {
-	padding: 70px 0;
-}
+
 .fas {
 	margin: 15px 0 0 0;
 	color: $main-color;
@@ -168,8 +168,7 @@ h4 {
 /* Portfolio */
 
 .portfolio {
-	background-color: #f7f7f7;
-	padding: 70px 0;	
+	background-color: #f7f7f7;	
 }
 
 .portfolio h4 {
@@ -237,8 +236,25 @@ h4 {
 }
 
 
+/* Footer */
 
 
+
+.footer a {
+	font-size: 0;
+
+}
+
+.footer i {
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #000000;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	padding: 0;
+}
 
 
 
